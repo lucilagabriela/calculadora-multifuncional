@@ -10,7 +10,7 @@ from historico import Historico
 # Configurções da Janela:
 master = Tk()
 master.title("Calculadora Multifuncional")
-# master.iconbitmap(default="calcu.ico")
+master.iconbitmap(default="calcu.ico")
 master.geometry("403x653+490+20")
 master.wm_resizable(width=False, height=False)
 

@@ -132,9 +132,7 @@ def cotacoes():
     BTC: {cotacao_btc}"""
     resultadoCotacoes["text"] = texto
     historico.addCotasItem(cotacao_dolar, cotacao_euro, cotacao_btc)
-
     '''
-
 
 def cotar(cot):
     global resultadoMoeda, dolar, euro, bitcoin
